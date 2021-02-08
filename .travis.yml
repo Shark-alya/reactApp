@@ -3,7 +3,16 @@ sudo: false
 language: node_js
 node_js:
   - 9
-
 branches:
   only:
     - main
+deploy:
+  provider: heroku
+  app: "reactapp-090221"
+  api_key:
+    secure: "f91ce20f-a2be-4517-8229-cd8ffe407e20"
+
+
+
+
+
